@@ -29,5 +29,10 @@
     "@types/vscode": "^1.85.0",
     "@types/node": "^18.0.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/configcat-labs/Whisker"
+  },
+  "license": "MIT"
 }
