@@ -194,7 +194,7 @@ function checkImages(content: string, workspaceRoot: string, issues: ValidationI
 
   // Check cover image exists on disk
   if (coverImage) {
-    const coverPath = path.join(workspaceRoot, 'static', coverImage);
+    const coverPath = path.join(workspaceRoot, 'website/static', coverImage);
     if (!fs.existsSync(coverPath)) {
       issues.push({
         severity: 'error',
@@ -251,7 +251,7 @@ function checkImages(content: string, workspaceRoot: string, issues: ValidationI
       : imageSrc;
 
     // Check image exists on disk
-    const imgFullPath = path.join(workspaceRoot, 'static', normalizedSrc);
+    const imgFullPath = path.join(workspaceRoot, 'website/static', normalizedSrc);
     if (!imgFullPath.toLowerCase().endsWith('.svg') && !fs.existsSync(imgFullPath)) {
       issues.push({
         severity: 'error',
