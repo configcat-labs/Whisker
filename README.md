@@ -23,6 +23,10 @@ Click it to open the Whisker panel, which has three tabs:
 
 Whisker re-runs automatically every time you save the file.
 
+## Screenshots
+
+<img width="1080" alt="Whisker" src="https://github.com/user-attachments/assets/29a2b894-e1f7-4a11-a44e-d77a3b876256" />
+
 ## For Developers
 
 To build a new `.vsix` after making changes:
