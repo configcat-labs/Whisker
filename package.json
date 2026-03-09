@@ -2,7 +2,7 @@
   "name": "whisker",
   "displayName": "Whisker Checker",
   "description": "Validates and shows approved tags for ConfigCat blog articles",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "publisher": "configcat",
   "engines": {
     "vscode": "^1.85.0"
