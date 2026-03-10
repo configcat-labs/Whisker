@@ -34,7 +34,7 @@ To build a new `.vsix` after making changes:
 ```bash
 npm install
 npm run compile
-npx vsce package --allow-missing-vsce-ignore
+npm run package
 ```
 
 Commit the new `.vsix` to the repo so writers can download it.
