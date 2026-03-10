@@ -1,8 +1,8 @@
 {
   "name": "whisker",
-  "displayName": "Whisker Checker",
-  "description": "Validates and shows approved tags for ConfigCat blog articles",
-  "version": "1.0.1",
+  "displayName": "Whisker Article Checker",
+  "description": "A VS Code extension for our content writers that validates and shows approved tags for ConfigCat blog articles.",
+  "version": "1.0.2",
   "publisher": "configcat",
   "engines": {
     "vscode": "^1.85.0"
@@ -23,7 +23,8 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./tsconfig.json",
-    "watch": "tsc -watch -p ./tsconfig.json"
+    "watch": "tsc -watch -p ./tsconfig.json",
+    "package": "npm install -g @vscode/vsce && vsce package"
   },
   "devDependencies": {
     "@types/vscode": "^1.85.0",
