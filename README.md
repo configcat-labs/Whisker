@@ -1,6 +1,6 @@
 # 🐱 Whisker
 
-Whisker is a VS Code extension that validates ConfigCat blog articles and helps you tag them correctly.
+A VS Code extension for our content writers that validates and shows approved tags for ConfigCat blog articles.
 
 ## Installing
 
